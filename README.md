@@ -1,4 +1,4 @@
-# Daily Korean – Plain PHP (no framework)
+# Daily Korean
 
 Requires: PHP 7.4+ with mysqli extension, MySQL/MariaDB.
 
