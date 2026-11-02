@@ -13,7 +13,7 @@ define('WORDS_PER_DAY', 10);
 $host     = 'sql.freedb.tech'; // (যেমন: mysql-xxxx.aivencloud.com বা pro.freedb.tech)
 $user     = 'u_KNevts';
 $pass     = 'CHNqhVk5tCzN';
-$dbname   = 'mysql://u_KNevts:CHNqhVk5tCzN@sql.freedb.tech:3306/freedb_5UAE2ivC';
+$dbname   = 'freedb_5UAE2ivC';
 $port     = 3306; // রিমোট পোর্ট (যদি থাকে)
 
 $conn = new mysqli($host, $user, $pass, $dbname, $port);
