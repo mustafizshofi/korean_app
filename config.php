@@ -16,7 +16,7 @@ $pass     = 'CHNqhVk5tCzN';
 $dbname   = 'freedb_5UAE2ivC';
 $port     = 3306; // রিমোট পোর্ট (যদি থাকে)
 
-$conn = new mysqli($host, $user, $pass, $dbname, $port);
+$mysqli = new mysqli($host, $user, $pass, $dbname, $port);
 
 
 
