@@ -8,7 +8,22 @@ define('DB_NAME', 'korean_app');
 
 define('WORDS_PER_DAY', 10);
 
-$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+// $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+
+$host     = 'sql.freedb.tech'; // (যেমন: mysql-xxxx.aivencloud.com বা pro.freedb.tech)
+$user     = 'u_KNevts';
+$pass     = 'CHNqhVk5tCzN';
+$dbname   = 'mysql://u_KNevts:CHNqhVk5tCzN@sql.freedb.tech:3306/freedb_5UAE2ivC';
+$port     = 3306; // রিমোট পোর্ট (যদি থাকে)
+
+$conn = new mysqli($host, $user, $pass, $dbname, $port);
+
+
+
+
+
+
+
 if ($mysqli->connect_error) {
     die('Database connection failed: ' . $mysqli->connect_error);
 }
